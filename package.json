@@ -1,0 +1,31 @@
+{
+  "name": "te-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "pnpm build && node ./dist/system/clean.js",
+    "test": "pnpm build && node ./dist/system/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "hasbin": "^1.2.3",
+    "tsx": "^3.12.8"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/hasbin": "^1.2.0",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "bin": {
+    "tet": "./dist/index.js"
+  }
+}
