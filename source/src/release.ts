@@ -38,6 +38,6 @@ archive.on('error', function (err) {
 archive.pipe(output);
 archive.glob('**/*', {
     cwd: __dirname + '/../',
-    ignore: ['node_modules/**', 'dist/**', 'src/**', '**release**']
+    ignore: ['node_modules/**', 'dist/**', '**release**']
 });
 await archive.finalize();
