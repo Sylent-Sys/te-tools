@@ -1,3 +1,4 @@
+import { test, describe } from 'vitest'
 import request from "supertest";
 import app from "../server.js";
 describe("Test the initial path", () => {
