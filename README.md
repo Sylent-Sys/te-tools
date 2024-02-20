@@ -1,5 +1,5 @@
 # WTH is this
-Ini adalah tools untuk generate template ExpressTS + Jest(Optional)
+Ini adalah tools untuk generate template ExpressTS + Vitest(Optional)
 # Compatibility
 Tools ini kompatibel dengan NPM, Yarn dan PNPM yang dimana jika anda tidak mempunyai Yarn dan PNPM akan otomatis menginstallnya jika NodeJs anda sudah mendukung Corepack
 # How To Use
